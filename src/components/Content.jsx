@@ -83,6 +83,7 @@ export function Content() {
                 <details>
                   <summary className={styles.cardRepoSummary}>
                     {repo.nome}
+                    <br />
                     <q className={styles.cardRepoQuote}>{repo.citacao}</q>
                   </summary>
                   <p className={styles.cardRepoText}>{repo.minibio}</p>
